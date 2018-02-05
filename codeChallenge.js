@@ -1,4 +1,8 @@
-console.log('js');
 $( document ).ready(function(){
-  console.log('JQ');
+  $( '#generateButton' ).on('click', function(){
+    console.log('in generateButton');
+    $( 'body' ).append( '<div></div>' );
+  })
+
+
 })
